@@ -38,6 +38,19 @@
         "memory": "16 GB",
         "display": "Retina"
       }
+    },
+    {
+      "title": "eqwe",
+      "price": "111",
+      "year": "111",
+      "image": "/assets/images/macbook.jpg",
+      "configure": {
+        "chip": "eqwe",
+        "SSD": "e",
+        "memory": "e",
+        "display": "e"
+      },
+      "id": 4
     }
   ]
 }

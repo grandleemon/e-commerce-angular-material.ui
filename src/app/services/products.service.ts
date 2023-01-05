@@ -17,4 +17,8 @@ export class ProductsService {
   getProductDetails(id: number) {
     return this.http.get<IProduct>(`${this.url}/${id}`)
   }
+
+  addProduct(product: IProduct) {
+    return this.http.post<IProduct>(this.url, product)
+  }
 }
